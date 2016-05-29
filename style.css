@@ -1,0 +1,73 @@
+@font-face {
+	font-family: Raleway;
+	src: url('Raleway.ttf');
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 12pt;
+	font-family: Raleway, arial;
+}
+
+body {
+	background-color: #222;
+	color: #fff;
+}
+
+header {
+	width:100%;
+	height: 50%;
+	background-image: url('map.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header div#joely {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	width: 15em;
+	height: 15em;
+	background-image: url('joely.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 100%;
+	border: 3px #000 solid;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+section#orgs {
+	width: 100%;
+	height: 10em;
+	margin-top: 2em;
+}
+
+a.org {
+	display: inline-block;
+	height: 100%;
+	width: 33%;
+	margin: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+a.org#jude {
+	background-image: url('st-jude.png');
+}
+
+a.org#laugh {
+	background-image: url('laugh.png');
+}
+
+a.org#davis {
+	background-image: url('davis.png');
+}
