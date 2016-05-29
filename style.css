@@ -71,3 +71,14 @@ a.org#laugh {
 a.org#davis {
 	background-image: url('davis.png');
 }
+
+div#jersey {
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	width: 12em;
+	height: 12em;
+	background-image: url('jersey.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
