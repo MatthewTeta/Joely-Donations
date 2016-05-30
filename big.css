@@ -1,0 +1,39 @@
+a.org {
+	display: inline-block;
+	height: 100%;
+	width: 33%;
+	margin: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+section#orgs {
+	width: 100%;
+	height: 10em;
+	margin-top: 2em;
+}
+
+header div#joely {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	width: 15em;
+	height: 15em;
+	background-image: url('joely.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 100%;
+	border: 3px #000 solid;
+}
+
+header div#jersey {
+	position: absolute;
+	bottom: calc(50vh + 1em);
+	right: 1em;
+	width: 12em;
+	height: 12em;
+	background-image: url('jersey.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
