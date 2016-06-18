@@ -27,7 +27,7 @@ body {
 #nav a {
 	position: relative;
 	display: inline-block;
-	width: 25%;
+	width: 20%;
 	height: 100%;
 	margin: 0;
 	color: #000;
@@ -54,6 +54,10 @@ body {
 	font-size: 1.5em;
 }
 
+#nav a#live-tracker {
+	font-size: 2em;
+}
+
 #content {
 	position: absolute;
 	padding: 2.5em;
@@ -62,6 +66,7 @@ body {
 	left: 50%;
 	background-color: rgba(255, 255, 255, 0.75);
 	transform: translate(-50%, 0);
+	text-align: center;
 }
 
 #content h1 {
